@@ -75,6 +75,6 @@ RECOVERY_VARIANT := twrp
 LZMA_RAMDISK_TARGETS := boot,recovery
 # TWRP_INCLUDE_LOGCAT := true
 TARGET_RECOVERY_DEVICE_DIRS += device/samsung/hl3gxx
-TARGET_RECOVERY_FSTAB := device/samsung/hl3gxx/rootdir/etc/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/samsung/hl3gxx/recovery/root/recovery.fstab
 TW_EXCLUDE_PYTHON := true
 
