@@ -26,8 +26,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_NAME := omni_hl3g
-PRODUCT_DEVICE := hl3g
+PRODUCT_NAME := omni_hl3gxx
+PRODUCT_DEVICE := hl3gxx
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := Samsung Galaxy Note 3 Neo
 PRODUCT_MANUFACTURER := samsung
