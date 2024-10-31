@@ -43,7 +43,7 @@ jobs:
         lunch omni_hl3gxx-eng
         mka recoveryimage
     - name: Uploading TWRP builds
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: pbrp
         path: /home/runner/TWRP/out/target/product/hl3gxx/recovery.*
